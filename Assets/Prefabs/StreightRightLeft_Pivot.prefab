@@ -60,7 +60,7 @@ MonoBehaviour:
   - {fileID: 5569923550332994805, guid: 5f94616c55ffc4645b975aaed9a1a45d, type: 3}
   - {fileID: 948279319395415375, guid: ad6052949bc40a548939685fd724b875, type: 3}
   - {fileID: 256531034250604188, guid: 613f0bcc94903b2428ccf9c78692d728, type: 3}
-  positionInt: {x: 0, y: 0, z: 0}
+  canBuildOnIt: 0
 --- !u!1001 &5311111384396539922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69,6 +69,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 9010807680322674628}
     m_Modifications:
+    - target: {fileID: 4182951043081342267, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182951043081342267, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b58ef1741ee60ed4aaea6dde5cd04f99, type: 2}
+    - target: {fileID: 4182951043081342267, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: acebd6c89b9c24549818921f49aba5a2, type: 2}
+    - target: {fileID: 4182951043081342267, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0daccd4389215804d85bcd937d384d53, type: 2}
     - target: {fileID: 6180485341917025390, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
       propertyPath: m_Name
       value: StraightRightLeft
@@ -125,6 +141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8970705318599326502, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: d85ff23cc0581754692c9166f1be2ec2, type: 3}
     m_RemovedComponents:
     - {fileID: 6133854425641274076, guid: 59c90813a2318ff48a7afa3990ccc93b, type: 3}
     m_RemovedGameObjects: []

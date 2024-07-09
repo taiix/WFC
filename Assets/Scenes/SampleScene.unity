@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44386628, g: 0.4932357, b: 0.5727334, a: 1}
+  m_IndirectSpecularColor: {r: 0.44386667, g: 0.49323595, b: 0.5727343, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -302,8 +302,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.13033973, y: -0.84568334, z: 0.45817372, w: 0.24064079}
+  m_LocalPosition: {x: 17.110699, y: 23.145927, z: 23.373444}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -318,7 +318,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853392266}
-  - component: {fileID: 1853392265}
   - component: {fileID: 1853392267}
   m_Layer: 0
   m_Name: WaveFunctionCollapse
@@ -327,23 +326,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1853392265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853392264}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f884cffed34a56438fbc33e98cf9bf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  width: 10
-  height: 10
-  prefab: {fileID: 1510888890321841205, guid: 8734e76648e884c428190664b2cc5463, type: 3}
-  allTiles: []
-  gridOfCells: []
 --- !u!4 &1853392266
 Transform:
   m_ObjectHideFlags: 0

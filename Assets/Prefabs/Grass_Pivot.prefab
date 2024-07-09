@@ -122,6 +122,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass
       objectReference: {fileID: 0}
+    - target: {fileID: 3629347063277255972, guid: 9a33a3f22cc3e2c48847722e314ce0ad, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 2d3f540d2e0d6c043811b6ee062a2e66, type: 3}
+    - target: {fileID: 8371220658819435321, guid: 9a33a3f22cc3e2c48847722e314ce0ad, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b58ef1741ee60ed4aaea6dde5cd04f99, type: 2}
     m_RemovedComponents:
     - {fileID: 8046404367506509307, guid: 9a33a3f22cc3e2c48847722e314ce0ad, type: 3}
     m_RemovedGameObjects: []
